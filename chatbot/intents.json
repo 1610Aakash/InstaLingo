@@ -1,0 +1,99 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["My pleasure", "You're Welcome"],
+     "context": [""]
+    },
+    {"tag": "query_website",
+     "patterns": ["What is this website about?"],
+     "responses": ["Welcome to InstaLingo! we provide all the services related to language like text summarization, sentiment analysis, grammar check and many more. how can i assis you today? "],
+     "context": [""]
+    },
+    {"tag": "query_support",
+     "patterns": ["how can i contact customer support?"],
+     "responses": ["you can contact our support team via email at support@instalingo.com or call us at +91 9650141603 "],
+     "context": [""]
+    },
+    {"tag": "query_workinghrs",
+     "patterns": ["what are your working hours?"],
+     "responses": ["our suport team is available from 8:00 A.M. to 5:00 P.M. IST "],
+     "context": [""]
+    }, 
+    {"tag": "query_app",
+     "patterns": ["do you have a mobile app"],
+     "responses": ["currently our website does not have a specific mobile app but we are currently working on it and will launch it soon. "],
+     "context": [""]
+    }, 
+    {"tag": "query_services",
+     "patterns": ["what services do you offer?"],
+     "responses": ["we provide a variety of services like text summarization, sentiment analysis, grammar check, language translator and many more."],
+     "context": [""]
+    }, 
+    {"tag": "query_account",
+     "patterns": ["how can i create an account?"],
+     "responses": ["you can signup by clicking on the signup button on the top right corner of our website page. need help?"],
+     "context": [""]
+    },
+    {"tag": "query_forgotpass",
+     "patterns": ["i forgot my password what should i do?"],
+     "responses": ["No worries! you can reset your password by clicking 'Forgot Password' on the login page and following the instructions. "],
+     "context": [""]
+    }, 
+    {"tag": "query_chatbot",
+     "patterns": ["how does your chatbot work?"],
+     "responses": ["i use AI to understand your queries and provide relevant responses. Feel free to ask me anything. "],
+     "context": [""]
+    }, 
+    {"tag": "query_previouschats",
+     "patterns": ["can you learn from our previous chats?"],
+     "responses": ["I remember the context of our conversation during this session, but I dont store personal data for privacy reasons. "],
+     "context": [""]
+    }, 
+    {"tag": "query_human",
+     "patterns": ["are you a human"],
+     "responses": ["no, I am an AI chatbot here to assist you 24*7. "],
+     "context": [""]
+    }, 
+    {"tag": "query_summarization",
+     "patterns": ["how does your summarization work?"],
+     "responses": ["our AI extracts key points from the text to create a short, meaningful summary while preserving the main ideas. "],
+     "context": [""]
+    }, 
+    {"tag": "query_sentiment",
+     "patterns": ["how accurate is your sentiment analysis?"],
+     "responses": ["our AI is trained to vast datasets to provide high accuracy, but results may vary depending on the complexity of the text. "],
+     "context": [""]
+    }, 
+    {"tag": "query_emotions",
+     "patterns": ["can you detect emotions in the text"],
+     "responses": ["Yes! i can recognize emotions like happiness, anger, sadness, and more. "],
+     "context": [""]
+    }, 
+    {"tag": "query_language",
+     "patterns": ["which language do you support"],
+     "responses": ["we support multiple languages like english, spanish, french, german , chinese, and more. which language do you need? "],
+     "context": [""]
+    }, 
+    {"tag": "query_translate",
+     "patterns": ["can you translate an entire document?"],
+     "responses": ["Currently, we support tex bases translation. if you have a document you can paste the content here! "],
+     "context": [""]
+    }, 
+    {"tag": "query_free",
+     "patterns": ["is your service free to use?"],
+     "responses": ["we offer both free and premium plans. basic features are free but advance features may require a subscription. would you like more details on pricing? "],
+     "context": [""]
+    } 
+    
+    
+]}
