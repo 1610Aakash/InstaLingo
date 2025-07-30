@@ -4,9 +4,8 @@
 - ✅ Text Summarization  
 - 🧠 Sentiment Analysis  
 - 🌐 Language Translation  
-- 🎤 Text to Speech  
-- 📝 Grammar Correction  
-- 💬 Magneto Text Generator
+- 🎤 Text to Image generation   
+- 💬 ChatBot
 
 ## 🚀 Features
 
